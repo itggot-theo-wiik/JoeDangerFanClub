@@ -1,0 +1,15 @@
+.header {
+    color: #ee6e73;
+    font-weight: 300;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.max-600 {
+    max-width: 600px;
+}

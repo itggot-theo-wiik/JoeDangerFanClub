@@ -1,0 +1,27 @@
+h1.header Create a new profile
+
+.row
+    form.col.s12 action="/create" method="post"
+        .row
+            .input-field.col.s6
+                input#first_name placeholder="Placeholder" type="text" class="validate" name="pic"
+                label for="first_name" First Name
+
+            .input-field.col.s6
+                input#last_name placeholder="Placeholder" type="text" class="validate"
+                label for="last_name" Last Name
+        .row
+            .input-field.col.s6
+                input#password placeholder="Placeholder" type="password" class="validate"
+                label for="password" Password
+        .row
+            .input-field.col.s6
+                input#last_name placeholder="Placeholder" type="email" class="validate"
+                label for="email" Email
+        .row
+
+            button class="waves-effect waves-light btn" type="submit" submit dude  
+
+h5.header Already have an account?
+
+<a href="/login" class="waves-effect waves-light btn">Log In</a>
